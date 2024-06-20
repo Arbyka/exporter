@@ -1,7 +1,9 @@
 import { client } from "@/utils/contentful";
 import { TypeCompanyFields } from "@/types/contentful";
 
-import Image from "next/image";
+// import Image from "next/image";
+
+
 
 export async function fetchArticle() {
     try {
@@ -12,33 +14,29 @@ export async function fetchArticle() {
     }
 }
 
-export default async function About() {
+export default async function ArticleSection() {
     const articles = await fetchArticle();
-    return (
-        <div>
+return(
+    <div className="bg-gray-100 py-20">
+        <h2 className="text-4xl font-bold text-center mb-12 text-black">About Us</h2>
+        <div className="lg:flex lg:px-20 sm:px-2">
             <div>
-                {articles?.map((article) => {
-                    const { aboutImage, about } = article.fields;
-                    if (aboutImage && aboutImage.fields) {
-                        const { fields }: { fields: { file: { url: string } } } = aboutImage;
-                        return (
-                            <div key={article.sys.id} className=" bg-gray-100">
-                                <h2 className="text-4xl font-bold text-center mb-12 pt-20">About Us</h2>
-                                <div className="lg:flex lg:px-20 py-10">
-                                    <p className="text-justify text-gray-700 lg:pr-5 sm:px-2">{about}</p>
-                                    <Image
-                                        alt="Team"
-                                        src={`https:${fields.file.url}`}
-                                        width={720}
-                                        height={720}
-                                        className="lg:pl-5 sm:px-2"
-                                    />
-                                </div>
-                            </div>
-                        );
-                    }
-                })}
+            {articles?.map((article) => (
+                <div key={article.sys.id}>
+                    <p className="mb-5 text-justify lg:pr-5">{article.fields.about}</p>
+                        {/*
+                        <Image
+                        alt="image"
+                        src={`https:${article.fields.articleImage.fields.file.url}`}
+                        width={720}
+                        height={720}
+                        /> */}
+                </div>
+            ))}  
             </div>
+
+            <img src="/Team.jpg" alt="" width={720} className="lg:pl-5"/>
         </div>
-    );
+    </div>
+)
 }

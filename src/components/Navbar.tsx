@@ -10,7 +10,7 @@ const Navbar: React.FC = () => {
           <Image src="/logo.png" alt="Logo" width={70} height={70} />
           <div className="text-white text-2xl font-bold">THE EXPORTER</div>
         </div>
-        <div className="space-x-4 flex sm:hidden">
+        <div className="space-x-4 flex">
           <Link href="/" className="text-gray-300 hover:text-yellow-500">
             Home
           </Link>
