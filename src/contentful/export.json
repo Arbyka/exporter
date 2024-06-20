@@ -1,0 +1,1692 @@
+{
+  "contentTypes": [
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "blog",
+        "type": "ContentType",
+        "createdAt": "2024-06-12T12:38:42.089Z",
+        "updatedAt": "2024-06-18T07:39:47.421Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 3,
+        "publishedAt": "2024-06-18T07:39:47.421Z",
+        "firstPublishedAt": "2024-06-12T12:38:42.663Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 4,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/content_types/blog"
+      },
+      "displayField": "title",
+      "name": "Blog",
+      "description": "",
+      "fields": [
+        {
+          "id": "title",
+          "name": "Title",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "slug",
+          "name": "Slug",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "unique": true
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "summary",
+          "name": "Summary",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "details",
+          "name": "Details",
+          "type": "RichText",
+          "localized": false,
+          "required": true,
+          "validations": [
+            {
+              "enabledMarks": [
+                "bold",
+                "italic",
+                "underline",
+                "code",
+                "superscript",
+                "subscript",
+                "strikethrough"
+              ],
+              "message": "Only bold, italic, underline, code, superscript, subscript, and strikethrough marks are allowed"
+            },
+            {
+              "enabledNodeTypes": [
+                "heading-1",
+                "heading-2",
+                "heading-3",
+                "heading-4",
+                "heading-5",
+                "heading-6",
+                "ordered-list",
+                "unordered-list",
+                "hr",
+                "blockquote",
+                "embedded-entry-block",
+                "embedded-asset-block",
+                "table",
+                "hyperlink",
+                "entry-hyperlink",
+                "asset-hyperlink",
+                "embedded-entry-inline"
+              ],
+              "message": "Only heading 1, heading 2, heading 3, heading 4, heading 5, heading 6, ordered list, unordered list, horizontal rule, quote, block entry, asset, table, link to Url, link to entry, link to asset, and inline entry nodes are allowed"
+            },
+            {
+              "nodes": {
+              }
+            }
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "articleImage",
+          "name": "articleImage",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "author",
+          "name": "Author",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "createdAt",
+          "name": "createdAt",
+          "type": "Date",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "product1",
+          "name": "Product1",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "company",
+        "type": "ContentType",
+        "createdAt": "2024-06-18T13:06:03.010Z",
+        "updatedAt": "2024-06-18T13:15:23.649Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-18T13:15:23.649Z",
+        "firstPublishedAt": "2024-06-18T13:06:03.661Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 6,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/content_types/company"
+      },
+      "displayField": "about",
+      "name": "Company",
+      "description": "",
+      "fields": [
+        {
+          "id": "about",
+          "name": "About",
+          "type": "Text",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "aboutImage",
+          "name": "aboutImage",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "product1",
+          "name": "Product1",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "productImage1",
+          "name": "productImage1",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "product2",
+          "name": "Product2",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "productImage2",
+          "name": "productImage2",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        },
+        {
+          "id": "product3",
+          "name": "Product3",
+          "type": "Symbol",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false
+        },
+        {
+          "id": "productImage3",
+          "name": "productImage3",
+          "type": "Link",
+          "localized": false,
+          "required": true,
+          "validations": [
+          ],
+          "disabled": false,
+          "omitted": false,
+          "linkType": "Asset"
+        }
+      ]
+    }
+  ],
+  "tags": [
+  ],
+  "editorInterfaces": [
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "qvf2n9em2vsr",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 4,
+        "createdAt": "2024-06-12T12:38:42.885Z",
+        "createdBy": {
+          "sys": {
+            "id": "3SCzNAmpT5607fgHAOHKUy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T07:39:48.742Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3SCzNAmpT5607fgHAOHKUy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "blog",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "title",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "slug",
+          "widgetId": "slugEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "summary",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "details",
+          "widgetId": "richTextEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "articleImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "author",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "createdAt",
+          "widgetId": "datePicker",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "product1",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    },
+    {
+      "sys": {
+        "id": "default",
+        "type": "EditorInterface",
+        "space": {
+          "sys": {
+            "id": "qvf2n9em2vsr",
+            "type": "Link",
+            "linkType": "Space"
+          }
+        },
+        "version": 6,
+        "createdAt": "2024-06-18T13:06:03.846Z",
+        "createdBy": {
+          "sys": {
+            "id": "3SCzNAmpT5607fgHAOHKUy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "updatedAt": "2024-06-18T13:15:24.663Z",
+        "updatedBy": {
+          "sys": {
+            "id": "3SCzNAmpT5607fgHAOHKUy",
+            "type": "Link",
+            "linkType": "User"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "id": "company",
+            "type": "Link",
+            "linkType": "ContentType"
+          }
+        },
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        }
+      },
+      "controls": [
+        {
+          "fieldId": "about",
+          "widgetId": "markdown",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "aboutImage",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "product1",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "productImage1",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "product2",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "productImage2",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "product3",
+          "widgetId": "singleLine",
+          "widgetNamespace": "builtin"
+        },
+        {
+          "fieldId": "productImage3",
+          "widgetId": "assetLinkEditor",
+          "widgetNamespace": "builtin"
+        }
+      ]
+    }
+  ],
+  "entries": [
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "5on64VSXP7mMSSrKksT3fQ",
+        "type": "Entry",
+        "createdAt": "2024-06-12T12:47:58.428Z",
+        "updatedAt": "2024-06-18T09:22:51.691Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 17,
+        "publishedAt": "2024-06-18T06:58:05.453Z",
+        "firstPublishedAt": "2024-06-12T12:55:55.804Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 3,
+        "version": 21,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "changed"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "blog"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/entries/5on64VSXP7mMSSrKksT3fQ"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Trusted Exporter for High Quality Commodities"
+        },
+        "slug": {
+          "en-US": "mengenal-lebih-dekat-nyamuk-wolbachia"
+        },
+        "summary": {
+          "en-US": "We specialize in shipping superior commodities worldwide, ensuring quality and timeliness with every shipment."
+        },
+        "details": {
+          "en-US": {
+            "nodeType": "document",
+            "data": {
+            },
+            "content": [
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "Our company was founded in 1990 with a vision to become a leader in the commodity export industry. Starting from a small family business in a simple warehouse, we have now developed into one of the leading exporters with an extensive global network. Our commitment to quality and timeliness has brought us numerous international achievements and awards.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "\nOur team consists of experienced and highly dedicated professionals in their respective fields. From a visionary management team to an efficient operational team, each of our members has an important role in ensuring the smoothness and success of every delivery process. We believe that our success is the result of solid teamwork and a relentless spirit of innovation.",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "\nWe uphold the values ​​of integrity, quality and customer service. Our company culture is based on openness, collaboration and sustainability. We strive to create an inclusive and supportive work environment, where every employee feels valued and motivated to give their best. We are also committed to running our business responsibly and sustainably, taking into account the environmental and social impacts of our every decision. ",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              },
+              {
+                "nodeType": "paragraph",
+                "data": {
+                },
+                "content": [
+                  {
+                    "nodeType": "text",
+                    "value": "",
+                    "marks": [
+                    ],
+                    "data": {
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        },
+        "articleImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5auRO72N03inQF9m1ZaGA9"
+            }
+          }
+        },
+        "author": {
+          "en-US": "Budi"
+        },
+        "createdAt": {
+          "en-US": "2024-06-12T00:00+07:00"
+        },
+        "product1": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "65dFseKVrkbQkXk2DE7H4j"
+            }
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ],
+        "concepts": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "6tqc4UkweKrGpUK4Ny1fvt",
+        "type": "Entry",
+        "createdAt": "2024-06-18T13:09:15.033Z",
+        "updatedAt": "2024-06-18T13:18:13.549Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 8,
+        "publishedAt": "2024-06-18T13:18:13.549Z",
+        "firstPublishedAt": "2024-06-18T13:18:13.549Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "automationTags": [
+        ],
+        "fieldStatus": {
+          "*": {
+            "en-US": "published"
+          }
+        },
+        "contentType": {
+          "sys": {
+            "type": "Link",
+            "linkType": "ContentType",
+            "id": "company"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/entries/6tqc4UkweKrGpUK4Ny1fvt"
+      },
+      "fields": {
+        "about": {
+          "en-US": "Our company was founded in 1990 with a vision to become a leader in the commodity export industry. Starting from a small family business in a simple warehouse, we have now developed into one of the leading exporters with an extensive global network. Our commitment to quality and timeliness has brought us numerous international achievements and awards.  Our team consists of experienced and highly dedicated professionals in their respective fields. From a visionary management team to an efficient operational team, each of our members has an important role in ensuring the smoothness and success of every delivery process. We believe that our success is the result of solid teamwork and a relentless spirit of innovation.  We uphold the values ​​of integrity, quality and customer service. Our company culture is based on openness, collaboration and sustainability. We strive to create an inclusive and supportive work environment, where every employee feels valued and motivated to give their best. We are also committed to running our business responsibly and sustainably, taking into account the environmental and social impacts of our every decision."
+        },
+        "aboutImage": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "30qW3uG7TRqWbjhqOwPaTv"
+            }
+          }
+        },
+        "product1": {
+          "en-US": "Kopi"
+        },
+        "productImage1": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "4cy8Oo48qxxgrVhkGyXfBG"
+            }
+          }
+        },
+        "product2": {
+          "en-US": "Teh"
+        },
+        "productImage2": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "5TFqFsA5pyQfic7wBnrG3t"
+            }
+          }
+        },
+        "product3": {
+          "en-US": "Coklat"
+        },
+        "productImage3": {
+          "en-US": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Asset",
+              "id": "3LZJGu5Zh9oUlNTwjrkSPm"
+            }
+          }
+        }
+      }
+    }
+  ],
+  "assets": [
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "5auRO72N03inQF9m1ZaGA9",
+        "type": "Asset",
+        "createdAt": "2024-06-12T12:51:58.561Z",
+        "updatedAt": "2024-06-18T06:43:24.329Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 9,
+        "publishedAt": "2024-06-18T06:43:24.329Z",
+        "firstPublishedAt": "2024-06-12T12:55:22.366Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 2,
+        "version": 10,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/5auRO72N03inQF9m1ZaGA9"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Team"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/5auRO72N03inQF9m1ZaGA9/1aa71201d9efce98257285d44280535c/pexels-bertellifotografia-2467506.jpg",
+            "details": {
+              "size": 3289666,
+              "image": {
+                "width": 6288,
+                "height": 4192
+              }
+            },
+            "fileName": "pexels-bertellifotografia-2467506.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "RDNEiOW8knB2Qep3SDyw9",
+        "type": "Asset",
+        "createdAt": "2024-06-17T17:10:17.806Z",
+        "updatedAt": "2024-06-17T17:13:24.182Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 5,
+        "publishedAt": "2024-06-17T17:12:37.451Z",
+        "firstPublishedAt": "2024-06-17T17:12:37.451Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 9,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/RDNEiOW8knB2Qep3SDyw9"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Team"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/RDNEiOW8knB2Qep3SDyw9/4f88054213a888251e0a104a396c19ac/pexels-bertellifotografia-2467506.jpg",
+            "details": {
+              "size": 3289666,
+              "image": {
+                "width": 6288,
+                "height": 4192
+              }
+            },
+            "fileName": "pexels-bertellifotografia-2467506.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "2B913AHltMpKoEbrI7c3p3",
+        "type": "Asset",
+        "createdAt": "2024-06-17T17:13:47.666Z",
+        "updatedAt": "2024-06-17T17:14:17.152Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-17T17:14:17.152Z",
+        "firstPublishedAt": "2024-06-17T17:14:17.152Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/2B913AHltMpKoEbrI7c3p3"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Kopi"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/2B913AHltMpKoEbrI7c3p3/54b30f0489ebf5319702ed2f8a52abeb/pexels-itschansy-3640819.jpg",
+            "details": {
+              "size": 2070987,
+              "image": {
+                "width": 4608,
+                "height": 3072
+              }
+            },
+            "fileName": "pexels-itschansy-3640819.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "4NCD5PRlSCexZNrVvpcy6p",
+        "type": "Asset",
+        "createdAt": "2024-06-17T17:14:44.457Z",
+        "updatedAt": "2024-06-17T17:15:07.893Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-17T17:15:07.893Z",
+        "firstPublishedAt": "2024-06-17T17:15:07.893Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/4NCD5PRlSCexZNrVvpcy6p"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Teh"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/4NCD5PRlSCexZNrVvpcy6p/40b04c83acb4a0277356e2f5f85b5505/pexels-koko-rahmadie-63607-227908.jpg",
+            "details": {
+              "size": 313822,
+              "image": {
+                "width": 1679,
+                "height": 2276
+              }
+            },
+            "fileName": "pexels-koko-rahmadie-63607-227908.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "6WOevgXRbkPfedW895Erhj",
+        "type": "Asset",
+        "createdAt": "2024-06-17T17:15:22.875Z",
+        "updatedAt": "2024-06-17T17:15:57.019Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-17T17:15:57.019Z",
+        "firstPublishedAt": "2024-06-17T17:15:57.019Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/6WOevgXRbkPfedW895Erhj"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Coklat"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/6WOevgXRbkPfedW895Erhj/8e67cfc72fa92349e620e4f9f2733d11/pexels-julia-miller-2026514-3653821.jpg",
+            "details": {
+              "size": 890126,
+              "image": {
+                "width": 4922,
+                "height": 3320
+              }
+            },
+            "fileName": "pexels-julia-miller-2026514-3653821.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "65dFseKVrkbQkXk2DE7H4j",
+        "type": "Asset",
+        "createdAt": "2024-06-18T07:40:17.027Z",
+        "updatedAt": "2024-06-18T07:40:49.033Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T07:40:49.033Z",
+        "firstPublishedAt": "2024-06-18T07:40:49.033Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/65dFseKVrkbQkXk2DE7H4j"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Kopi"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/65dFseKVrkbQkXk2DE7H4j/b834801c8f7bf37ec63e57d273b37cc3/pexels-itschansy-3640819.jpg",
+            "details": {
+              "size": 2070987,
+              "image": {
+                "width": 4608,
+                "height": 3072
+              }
+            },
+            "fileName": "pexels-itschansy-3640819.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "30qW3uG7TRqWbjhqOwPaTv",
+        "type": "Asset",
+        "createdAt": "2024-06-18T13:15:40.970Z",
+        "updatedAt": "2024-06-18T13:16:19.240Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T13:16:19.240Z",
+        "firstPublishedAt": "2024-06-18T13:16:19.240Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/30qW3uG7TRqWbjhqOwPaTv"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Team"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/30qW3uG7TRqWbjhqOwPaTv/2d6031515ca62039c0077a5e9c277d48/pexels-bertellifotografia-2467506.jpg",
+            "details": {
+              "size": 3289666,
+              "image": {
+                "width": 6288,
+                "height": 4192
+              }
+            },
+            "fileName": "pexels-bertellifotografia-2467506.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "4cy8Oo48qxxgrVhkGyXfBG",
+        "type": "Asset",
+        "createdAt": "2024-06-18T13:16:31.431Z",
+        "updatedAt": "2024-06-18T13:16:55.189Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T13:16:55.189Z",
+        "firstPublishedAt": "2024-06-18T13:16:55.189Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/4cy8Oo48qxxgrVhkGyXfBG"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Kopi"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/4cy8Oo48qxxgrVhkGyXfBG/b6f8f41a229a7fccef8e0d894e6ad30f/pexels-itschansy-3640819.jpg",
+            "details": {
+              "size": 2070987,
+              "image": {
+                "width": 4608,
+                "height": 3072
+              }
+            },
+            "fileName": "pexels-itschansy-3640819.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "5TFqFsA5pyQfic7wBnrG3t",
+        "type": "Asset",
+        "createdAt": "2024-06-18T13:17:05.612Z",
+        "updatedAt": "2024-06-18T13:17:26.894Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T13:17:26.894Z",
+        "firstPublishedAt": "2024-06-18T13:17:26.894Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/5TFqFsA5pyQfic7wBnrG3t"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Teh"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/5TFqFsA5pyQfic7wBnrG3t/3d18436566de4d9109425359d3c15a08/pexels-koko-rahmadie-63607-227908.jpg",
+            "details": {
+              "size": 313822,
+              "image": {
+                "width": 1679,
+                "height": 2276
+              }
+            },
+            "fileName": "pexels-koko-rahmadie-63607-227908.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    },
+    {
+      "metadata": {
+        "tags": [
+        ]
+      },
+      "sys": {
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "id": "3LZJGu5Zh9oUlNTwjrkSPm",
+        "type": "Asset",
+        "createdAt": "2024-06-18T13:17:42.303Z",
+        "updatedAt": "2024-06-18T13:18:07.482Z",
+        "environment": {
+          "sys": {
+            "id": "master",
+            "type": "Link",
+            "linkType": "Environment"
+          }
+        },
+        "publishedVersion": 4,
+        "publishedAt": "2024-06-18T13:18:07.482Z",
+        "firstPublishedAt": "2024-06-18T13:18:07.482Z",
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "publishedCounter": 1,
+        "version": 5,
+        "publishedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "urn": "crn:contentful:::content:spaces/qvf2n9em2vsr/environments/master/assets/3LZJGu5Zh9oUlNTwjrkSPm"
+      },
+      "fields": {
+        "title": {
+          "en-US": "Coklat"
+        },
+        "description": {
+          "en-US": ""
+        },
+        "file": {
+          "en-US": {
+            "url": "//images.ctfassets.net/qvf2n9em2vsr/3LZJGu5Zh9oUlNTwjrkSPm/252250547e66aa93bd401a485b270f46/pexels-julia-miller-2026514-3653821.jpg",
+            "details": {
+              "size": 890126,
+              "image": {
+                "width": 4922,
+                "height": 3320
+              }
+            },
+            "fileName": "pexels-julia-miller-2026514-3653821.jpg",
+            "contentType": "image/jpeg"
+          }
+        }
+      }
+    }
+  ],
+  "locales": [
+    {
+      "name": "English (United States)",
+      "code": "en-US",
+      "fallbackCode": null,
+      "default": true,
+      "contentManagementApi": true,
+      "contentDeliveryApi": true,
+      "optional": false,
+      "sys": {
+        "type": "Locale",
+        "id": "7FhBIC0aQ9NsHYkOcSTrUP",
+        "version": 1,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "environment": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Environment",
+            "id": "master",
+            "uuid": "a7f9fdd6-d9dd-4c67-bf9d-db087ab6daa0"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "createdAt": "2024-06-12T12:26:57Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedAt": "2024-06-12T12:26:57Z"
+      }
+    }
+  ],
+  "webhooks": [
+  ],
+  "roles": [
+    {
+      "name": "Editor",
+      "description": "Allows editing, publishing and archiving of content",
+      "policies": [
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Entry"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "effect": "allow",
+          "actions": "all",
+          "constraint": {
+            "and": [
+              {
+                "equals": [
+                  {
+                    "doc": "sys.type"
+                  },
+                  "Asset"
+                ]
+              }
+            ]
+          }
+        }
+      ],
+      "permissions": {
+        "ContentModel": [
+          "read"
+        ],
+        "Settings": [
+        ],
+        "ContentDelivery": [
+        ],
+        "Environments": [
+        ],
+        "EnvironmentAliases": [
+        ],
+        "Tags": [
+        ]
+      },
+      "sys": {
+        "type": "Role",
+        "id": "7FBqma3OgciS1tsO63QB83",
+        "version": 0,
+        "space": {
+          "sys": {
+            "type": "Link",
+            "linkType": "Space",
+            "id": "qvf2n9em2vsr"
+          }
+        },
+        "createdBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "createdAt": "2024-06-12T12:26:57Z",
+        "updatedBy": {
+          "sys": {
+            "type": "Link",
+            "linkType": "User",
+            "id": "3SCzNAmpT5607fgHAOHKUy"
+          }
+        },
+        "updatedAt": "2024-06-12T12:26:57Z"
+      }
+    }
+  ]
+}
